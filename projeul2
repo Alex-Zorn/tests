@@ -1,0 +1,16 @@
+sum = 0
+
+i = 1
+j = 1
+new = 0
+
+while true:
+  new = i + j
+  if new > 4000000:
+    break
+  elif new%2 == 0:
+    sum += new
+  i = j
+  j = new
+  
+print sum
