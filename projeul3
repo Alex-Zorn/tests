@@ -1,0 +1,8 @@
+def primefactor(n):
+	i = 2
+	while i*i <= n:
+		if n%i == 0:
+			return [i] + primefactor(n//i)
+		else:
+			i += 1
+	return [n]
