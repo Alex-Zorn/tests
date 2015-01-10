@@ -4,7 +4,7 @@ i = 1
 j = 1
 new = 0
 
-while true:
+while True:
   new = i + j
   if new > 4000000:
     break
